@@ -1,0 +1,4 @@
+# Copies locales utilisées par Chrome (l'original est dans chrome-extension/)
+/manifest.json
+/content.js
+.DS_Store

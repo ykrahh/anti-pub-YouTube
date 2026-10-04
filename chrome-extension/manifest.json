@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube → yout-ube",
+  "version": "1.0",
+  "description": "Redirige les vidéos YouTube vers yout-ube.com",
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*", "*://youtube.com/*", "*://m.youtube.com/*", "*://youtu.be/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
